@@ -1,0 +1,250 @@
+
+      @font-face {
+    font-family: 'Heebo';
+    src: url('./fonts/Heebo-Light.woff2') format('wolf2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+        .C{
+            margin-top: -30px;
+            width: 100px;
+            height: 80px;
+        }
+        ul, li, nav, section{
+            display: inline;
+        }
+        header nav, header input{
+            margin-top: 20px;
+        }
+        header{
+            display: flex;
+            vertical-align: top;
+        }
+        li{
+
+            margin: 10px;
+            padding: 0 5px;
+            border-right: 1px solid gray;
+            border-left: 1px solid gray;
+        }
+
+    
+        .K{
+            width: 70%;
+            height: 70%;
+        }
+        #top img{
+            width: 100%;
+            height: 100%;
+        }
+       #Popular article{
+        display: inline-block;
+        width: 300px;
+        text-align: center;
+        border: 1px solid #B25538;
+        padding: 10px;
+        margin: 10px;
+       }
+
+       i{
+        text-align: center;
+        display: block;
+       }
+       .Nabor{
+        width: 48%;
+            height: 48%;
+       }
+      footer{
+        margin:10px;
+        background-color: Silver;
+        height: 70px;
+        width: 100vw;
+        margin-left: -5px;
+        padding: 15px;
+      }
+      .footer div{
+        margin-top:20px;
+        text-align: center;
+        display: inline-block;
+      }
+      h1{
+        font-family:sans-serif;
+        font-size: 30px;
+        color: black;
+      }
+      p{
+         font-family: "Heebo", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+        color: rgb(29, 29, 26);
+      }
+      a{
+        font-size: 20px;
+      }
+
+      footer a {
+        font-size: 18px;
+      }
+
+      footer a:hover,
+      header a:hover {
+        color: rgb(80, 8, 21);
+      } 
+
+.gallery a img {
+    width: 95px;
+    aspect-ratio: 1;
+}
+
+.container img {
+    width: 90%;
+    aspect-ratio: 1;
+    display: block;
+    margin: 0 auto;
+}
+
+.container h1 {
+    text-transform: uppercase;
+}
+
+.container {
+    border: 1px solid gray;
+    width: 35%;
+    height: 50%;
+    text-align: center;
+}
+
+.gallery {
+    width: 35%;
+    font-size: 0;
+    border: 1px solid gray;
+    border-top: 0px;
+}
+
+.gallery a {
+    display: inline-block;
+    border-top: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.gallery a:not(:last-child) {
+
+    border-right: 1px solid gray;
+
+}
+
+.gallery a:hover {
+     background-color: rgb(232, 185, 154);
+}
+
+.gallery img:hover {
+     width: 100px;
+    aspect-ratio: 1;
+}
+
+
+.product-specs li {
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.product-description p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.product-actions {
+    margin: 30px 0;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #B25538;
+    margin-bottom: 15px;
+}
+
+.product-actions button {
+    background-color: #B25538;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product-actions button:hover {
+    background-color: #9a442d;
+}
+
+.methods {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+    justify-content: space-between;
+}
+
+.payment-item {
+    flex: 1;
+    width: 220px;
+    border-radius: 5%;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+.info-note {
+            margin-top: 20px;
+        }
+
+.delivery-container{
+            overflow-x: auto;
+            border-radius: 20px;
+            border: 1px solid #e2e8f0;
+            background: white;
+        }
+
+        .delivery-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 1rem;
+            min-width: 500px;
+        }
+
+        .delivery-table th,
+        .delivery-table td {
+            padding: 20px;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .delivery-table th {
+            background-color: #f1f5f9;
+            font-weight: 700;
+            color: #0f172a;
+            font-size: 1.05rem;
+        }
+
+        
+
+        .delivery-table tr:hover td {
+            background-color: #fef9e8;
+        }
+
+        
+
+    
+
+
+       
+
+      
+
+
+
+      
+      
